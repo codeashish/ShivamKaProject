@@ -10,7 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "adm-zip": "^0.5.9",
     "body-parser": "^1.20.1",
     "chalk-animation": "^2.0.3",
     "colors": "^1.4.0",
@@ -18,7 +17,6 @@
     "figlet": "^1.5.2",
     "gradient-string": "^2.0.2",
     "multer": "^1.4.5-lts.1",
-    "path": "^0.12.7",
     "unzipper": "^0.10.11"
   }
 }
