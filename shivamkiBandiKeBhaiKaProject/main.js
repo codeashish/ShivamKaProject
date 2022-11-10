@@ -18,9 +18,7 @@ app.post('/zip', upload.single('zipFile'), async function (req, res, next) {
         path: 'output',
       })
     );
-    console.log(
-      colors.rainbow.underline(`${req.file.originalname} is unzipped`)
-    );
+    console.log(`${req.file.originalname} is unzipped`);
     res.send(`${req.file.originalname} is unzipped`);
   } catch (err) {
     console.log(err);
